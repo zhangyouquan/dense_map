@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zyq/桌面/dense_map/dense_map_mono/errorTest/errorTest.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/core.hpp
+-
+fstream
+-
+string
+-
+

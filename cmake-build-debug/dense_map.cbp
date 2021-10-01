@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dense_map"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dense_map_mono\;CMake Files\dense_map_mono\src\;CMake Files\dense_map_mono\errorTest\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\..\usr\local\share\sophus\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dense_mono">
+				<Option output="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/dense_mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zyq/桌面/dense_map/dense_map_mono/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 dense_mono"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dense_mono/fast">
+				<Option output="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/dense_mono" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zyq/桌面/dense_map/dense_map_mono/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 dense_mono/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errorTest">
+				<Option output="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/errorTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zyq/桌面/dense_map/dense_map_mono/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 errorTest"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errorTest/fast">
+				<Option output="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/errorTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zyq/桌面/dense_map/dense_map_mono/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 errorTest/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zyq/桌面/dense_map/cmake-build-debug/dense_map_mono/errorTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zyq/桌面/dense_map/dense_map_mono/errorTest/errorTest.cpp">
+			<Option target="errorTest"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/dense_map_mono/src/dense_mono.cpp">
+			<Option target="dense_mono"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/dense_map_mono/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dense_map_mono\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/dense_map_mono/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dense_map_mono\src\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/dense_map_mono/errorTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dense_map_mono\errorTest\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zyq/桌面/dense_map/../../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

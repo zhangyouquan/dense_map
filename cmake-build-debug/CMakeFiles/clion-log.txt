@@ -1,0 +1,4 @@
+/snap/clion/164/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/zyq/桌面/dense_map
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zyq/桌面/dense_map/cmake-build-debug
